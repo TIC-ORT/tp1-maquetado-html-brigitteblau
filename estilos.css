@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  margin: 30px;
+}
+
+header {
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: #333;
+}
+
+.header-content {
+    display: flex;
+}
+
+.frase {
+    width: 20%;
+    background-color: #b3e5fc;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frase h1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.carousel {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carousel p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.cuadrados {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2px;
+    margin-left: 30%;
+    margin-right: 15%;
+    justify-content: space-between;
+}
+
+.cuadrado {
+    width: 50px;
+    height: 50px;
+    background-color: #b3e5fc;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns:50% 50%;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+article {
+    background-color: #ffffff;
+    padding: 20px;
+
+}
+
+.border-color {
+    padding: 15px 25px;
+    background-color: grey;
+    /* margin-bottom: 10px; */
+    
+}
+
+.border-color2 {
+    height: 10px;
+    background-color: #ffcc80;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+aside {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.something {
+    margin-bottom: 20px;
+}
+
+.rectangle {
+    height: 100px;
+    background-color: #b3e5fc;
+    margin-bottom: 10px;
+}
+
+.line {
+    height: 2px;
+    background-color: #333;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cuadrado2 {
+    width: 30px;
+    height: 30px;
+    background-color: #ffcc80;
+}
+
+.text {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
